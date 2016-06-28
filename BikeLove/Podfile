@@ -1,0 +1,21 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'BikeLove' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for BikeLove
+  pod 'Moltin'
+
+  target 'BikeLoveTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'BikeLoveUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
